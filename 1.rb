@@ -1,0 +1,2 @@
+params[:raito] =|| 1
+
