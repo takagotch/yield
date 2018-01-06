@@ -8,12 +8,16 @@
 #
 #/* params, rules={} && params = {}*n */
 #options = {}
-#options.update (:xxx => XXX
-#                :yyy => YYY)
+#options.update (:xxx => xxx
+#                :yyy => yyy)
 #
 #/* return */
 #self
 #super
 #super () #=>ary
 #
-d
+#instance_eval
+#
+#
+#
+#
