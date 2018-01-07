@@ -8,7 +8,7 @@
 #end
 #end
 #
-#x > 0 
+#x < 0 
 #ary downcase
 #x = ["a", "b", "c"]
 #p x[-1] #=> c
