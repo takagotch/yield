@@ -30,4 +30,9 @@
 #
 #.send()
 #
+#enumerable (namespace, mixin)
+#each_cons
+#map
+#find_all
+#inject (:+)     #[2, 3, 5]inject(0, :+)
 #
