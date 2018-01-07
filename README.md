@@ -52,4 +52,7 @@
 #ARGV[0] ARGV[1]
 #>ruby taka.rb arg1 arg2
 #
-
+#$1 #first_group_match
+#$+ #last_group_match
+#(?: ) #backgroup
+#()    #group||save
