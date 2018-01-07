@@ -59,3 +59,6 @@
 #$+ #last_group_match
 #(?: ) #backgroup
 #()    #group||save
+#
+#https://docs.ruby-lang.org/ja/latest/doc/spec=2fcall.html
+#
