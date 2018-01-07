@@ -35,6 +35,8 @@
 #super
 #super () #=>ary
 #
+#self.array #reciever, default_class show
+#
 #instance_eval
 #
 #.send()
