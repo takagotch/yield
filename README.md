@@ -1,3 +1,14 @@
+#* @array.each {|x| yield x} *
+#class Myclass
+#  def initialize(array)
+#    @array = array
+#  end
+#
+#  def each
+#    @array.each {|x| yield x}
+#  end
+#end
+#
 #x > 0 
 #ary downcase
 #x = ["a", "b", "c"]
