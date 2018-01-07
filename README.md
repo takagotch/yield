@@ -45,3 +45,6 @@
 #find_all
 #inject (:+)     #[2, 3, 5]inject(0, :+)
 #
+#B ||= A; retun A if,unless B; #default A
+#params[:stock_list] ||= raise("sting")
+#return 0 unless @form
