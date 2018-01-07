@@ -1,3 +1,17 @@
+#each
+#&&
+#&,{||}
+#* @array.each {|x| yield x} *
+class Myclass
+  def initialize(array)
+    @array = array
+  end
+
+  def each
+    @array.each {|x| yield x}
+  end
+end
+
 #params={}
 #params[:xxx]
 #params[:yyy]
