@@ -46,5 +46,10 @@
 #inject (:+)     #[2, 3, 5]inject(0, :+)
 #
 #B ||= A; retun A if,unless B; #default A
-#params[:stock_list] ||= raise("sting")
+#slm.file_name = ARGV[0] || "taka.rb"
 #return 0 unless @form
+#
+#ARGV[0] ARGV[1]
+#>ruby taka.rb arg1 arg2
+#
+
