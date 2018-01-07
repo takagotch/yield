@@ -33,7 +33,8 @@
 #/* return */
 #self
 #super
-#super () #=>ary
+#super(arg) #default #arg= 1
+#arg: argument 引数
 #
 #self.array #reciever, default_class show
 #

@@ -6,11 +6,13 @@
 #/* return */
 #self
 #super
-#super () #=>ary
+#super(arg)  #default #arg = 1
+#arg: argument引数
 #
 def calculate
 	@indicator - calculate_indicator
 	self
+	super #default super 1; super(arg)
 end
 
 def to_xml(options = {})
