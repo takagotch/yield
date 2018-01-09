@@ -8,7 +8,7 @@
 #end
 #end
 #
-#x > 0 
+#x < 0 
 #ary downcase
 #x = ["a", "b", "c"]
 #p x[-1] #=> c
@@ -33,7 +33,8 @@
 #/* return */
 #self
 #super
-#super () #=>ary
+#super(arg) #default #arg= 1
+#arg: argument 引数
 #
 #self.array #reciever, default_class show
 #
@@ -58,3 +59,6 @@
 #$+ #last_group_match
 #(?: ) #backgroup
 #()    #group||save
+#
+#https://docs.ruby-lang.org/ja/latest/doc/spec=2fcall.html
+#
