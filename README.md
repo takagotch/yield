@@ -1,3 +1,5 @@
+### yield
+
 #* @array.each {|x| yield x} *
 #class Myclass
 #def initialize(array)
